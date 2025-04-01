@@ -34,7 +34,7 @@ main();
 
 // Home Route - Redirect to Listings
 app.get("/", (req, res) => {
-  res.redirect("/listings");
+  res.redirect("/listing");
 });
 
 // Index Route - Show All Listings
